@@ -1,11 +1,11 @@
-/* Default css file for jemdoc - Academic Classic Override */
+/* jemdoc base — structural reset for table layout */
 
 table#tlayout {
     border: none;
     border-collapse: separate;
     background: transparent;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 960px;
     display: block;
 }
 
@@ -20,16 +20,15 @@ table#tlayout > tbody > tr {
 }
 
 body {
-    background: #f7f6f3;
+    background: #f7f5f2;
     font-family: Georgia, serif;
     padding-bottom: 8px;
     margin: 0;
 }
 
 #layout-menu {
-    background: #fffffe;
-    border: 1px solid #e2e8f0;
-    border-bottom: none;
+    background: #fff;
+    border: none;
     padding: 0;
     font-size: 1.0em;
     width: 100%;
@@ -38,6 +37,10 @@ body {
     justify-content: center;
     gap: 0;
     box-sizing: border-box;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 #layout-menu td {
@@ -71,26 +74,26 @@ pre, tt {
 }
 
 a, a > tt {
-    color: #1a365d;
+    color: #2e5090;
     text-decoration: none;
 }
 
 a:hover {
     border-bottom: none;
-    color: #8b5a2b;
+    color: #8c1515;
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-    color: #1a365d;
+    color: #8c1515;
     border-bottom: none;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-    color: #2d3748;
+    color: #374151;
     text-decoration: none;
 }
 #layout-menu a:hover {
     text-decoration: none;
-    color: #1a365d;
+    color: #8c1515;
 }
 
 div.menu-category {
@@ -112,7 +115,6 @@ div#toptitle {
     border-bottom: none;
 }
 
-/* Reduce space if we begin the page with a title. */
 div#toptitle + h2, div#toptitle + h3 {
     margin-top: -0.7em;
 }
@@ -143,13 +145,13 @@ h1, h2, h3 {
 
 h1 {
     font-size: 165%;
-    color: #1a365d;
+    color: #111827;
 }
 
 h2 {
     padding-top: 0.8em;
     font-size: 125%;
-    color: #1a365d;
+    color: #111827;
 }
 
 h2 + h3 {
@@ -158,7 +160,7 @@ h2 + h3 {
 
 h3 {
     font-size: 110%;
-    color: #2d3748;
+    color: #374151;
     border-bottom: none;
 }
 
@@ -176,10 +178,10 @@ pre {
 
 div#footer {
     font-size: small;
-    border-top: 1px solid #c0c0c0;
+    border-top: 1px solid #e5e7eb;
     padding-top: 0.1em;
     margin-top: 4.0em;
-    color: #c0c0c0;
+    color: #9ca3af;
 }
 
 div#footer a {
@@ -198,7 +200,7 @@ ul, ol, dl {
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 dt {
@@ -260,7 +262,7 @@ div.codeblock, div.infoblock {
 
 div.blocktitle {
     font-weight: bold;
-    color: #1a365d;
+    color: #111827;
     margin-top: 1.2em;
     margin-bottom: 0.1em;
 }
