@@ -714,3 +714,220 @@ h2 + p:last-of-type {
     35% { transform: scale(1.06); background: #bbf7d0; }
     100% { transform: scale(1); background: #fff; }
 }
+
+/* ─── Research page ─── */
+.research-intro {
+    text-align: left;
+    max-width: 46rem;
+    margin: 0.9rem 0 0;
+    font-size: 0.95rem;
+    line-height: 1.85;
+    color: var(--color-text);
+}
+
+/* Understand · Generalize · Discover — three parallel directions */
+.research-arc {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.5rem 1.5rem;
+    max-width: 38rem;
+    margin: 2.25rem auto 0;
+    padding: 1.4rem 0;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.research-arc-item {
+    text-align: center;
+    text-decoration: none;
+}
+
+.research-arc-item:hover {
+    text-decoration: none;
+}
+
+.research-arc-label {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.research-arc-sub {
+    display: block;
+    margin-top: 0.3rem;
+    font-size: 0.76rem;
+    line-height: 1.45;
+    color: var(--color-text-secondary);
+}
+
+.research-arc-item:hover .research-arc-sub {
+    color: var(--color-primary);
+}
+
+/* Alternating text / figure sections.
+   The heading owns its own grid row so the figure aligns against the body
+   text rather than against the eyebrow, and centres within it. */
+.research-direction {
+    display: grid;
+    grid-template-columns: 1fr 40%;
+    grid-template-areas:
+        "head ."
+        "body fig";
+    column-gap: 3rem;
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--color-border);
+    scroll-margin-top: 4rem;
+}
+
+.research-direction:last-of-type {
+    border-bottom: none;
+    padding-bottom: 1rem;
+}
+
+.research-direction--reverse {
+    grid-template-columns: 40% 1fr;
+    grid-template-areas:
+        ".   head"
+        "fig body";
+}
+
+.research-direction-head {
+    grid-area: head;
+    text-align: left;
+}
+
+.research-direction-content {
+    grid-area: body;
+    min-width: 0;
+    text-align: left;
+}
+
+.research-direction-figure {
+    grid-area: fig;
+    align-self: center;
+    min-width: 0;
+    margin: 0;
+}
+
+.research-direction-content p {
+    font-size: 0.93rem;
+    line-height: 1.8;
+}
+
+.research-direction h2 {
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.research-eyebrow {
+    margin: 0;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-text-light);
+}
+
+.research-num {
+    color: var(--color-primary);
+    margin-right: 0.5rem;
+}
+
+/* Links to my own work */
+.research-related {
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.research-related-label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-text-light);
+}
+
+.research-related ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.research-related li {
+    padding: 0.28rem 0;
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
+.research-related li a {
+    font-weight: 500;
+}
+
+.research-related-venue {
+    display: block;
+    font-size: 0.78rem;
+    font-style: italic;
+    color: var(--color-text-light);
+}
+
+/* Conceptual figures */
+.research-direction-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0.75rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+}
+
+.research-caption {
+    margin-top: 0.65rem;
+    text-align: left;
+    font-size: 0.78rem;
+    line-height: 1.55;
+    color: var(--color-text-light);
+}
+
+@media screen and (max-width: 768px) {
+    .research-direction,
+    .research-direction--reverse {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-areas:
+            "head"
+            "body"
+            "fig";
+        padding: 2.25rem 0;
+    }
+
+    .research-direction-figure {
+        align-self: stretch;
+        margin-top: 1.75rem;
+    }
+
+    .research-arc {
+        gap: 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .research-arc {
+        gap: 0.4rem 0.6rem;
+    }
+
+    .research-arc-label {
+        font-size: 0.74rem;
+        letter-spacing: 0.08em;
+    }
+
+    .research-arc-sub {
+        font-size: 0.71rem;
+    }
+}

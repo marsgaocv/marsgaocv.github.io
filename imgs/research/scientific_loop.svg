@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 410" width="360" height="410" role="img" aria-hidden="true" focusable="false">
+<style>text{font-family:Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;}</style>
+<rect x="64" y="36" width="210" height="40" rx="5" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="169.0" y="60.0" font-size="11.5" font-weight="600" fill="#1f2937" text-anchor="middle">Hypothesis</text>
+<line x1="169.0" y1="78" x2="169.0" y2="86" stroke="#9ca3af" stroke-width="1.1"/>
+<path d="M169.0,92 L165.4,85.5 L172.6,85.5 Z" fill="#9ca3af"/>
+<circle cx="252" cy="51.0" r="3.2" fill="none" stroke="#8c1515" stroke-width="1.2"/>
+<path d="M246.5,61.5 A6.2,6.2 0 0 1 257.5,61.5" fill="none" stroke="#8c1515" stroke-width="1.2"/>
+<rect x="64" y="93" width="210" height="40" rx="5" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="169.0" y="117.0" font-size="11.5" font-weight="600" fill="#1f2937" text-anchor="middle">Experiment design</text>
+<line x1="169.0" y1="135" x2="169.0" y2="143" stroke="#9ca3af" stroke-width="1.1"/>
+<path d="M169.0,149 L165.4,142.5 L172.6,142.5 Z" fill="#9ca3af"/>
+<rect x="64" y="150" width="210" height="40" rx="5" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="169.0" y="174.0" font-size="11.5" font-weight="600" fill="#1f2937" text-anchor="middle">Computation &amp; experiment</text>
+<line x1="169.0" y1="192" x2="169.0" y2="200" stroke="#9ca3af" stroke-width="1.1"/>
+<path d="M169.0,206 L165.4,199.5 L172.6,199.5 Z" fill="#9ca3af"/>
+<rect x="64" y="207" width="210" height="40" rx="5" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="169.0" y="231.0" font-size="11.5" font-weight="600" fill="#1f2937" text-anchor="middle">Evidence</text>
+<line x1="169.0" y1="249" x2="169.0" y2="257" stroke="#9ca3af" stroke-width="1.1"/>
+<path d="M169.0,263 L165.4,256.5 L172.6,256.5 Z" fill="#9ca3af"/>
+<circle cx="252" cy="222.0" r="3.2" fill="none" stroke="#8c1515" stroke-width="1.2"/>
+<path d="M246.5,232.5 A6.2,6.2 0 0 1 257.5,232.5" fill="none" stroke="#8c1515" stroke-width="1.2"/>
+<rect x="64" y="264" width="210" height="40" rx="5" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="169.0" y="288.0" font-size="11.5" font-weight="600" fill="#1f2937" text-anchor="middle">Analysis &amp; modeling</text>
+<path d="M169.0,304 L169.0,322 Q169.0,330 161.0,330 L46,330 Q38,330 38,322 L38,44 Q38,36 46,36 L56,36" fill="none" stroke="#8c1515" stroke-width="1.3"/>
+<path d="M64,36 L56,32.2 L56,39.8 Z" fill="#8c1515"/>
+<text x="26" y="185" font-size="9" font-weight="600" letter-spacing="0.8" fill="#8c1515" text-anchor="middle" transform="rotate(-90 26 185)">REVISE HYPOTHESIS</text>
+<path d="M288,40 Q296,40 296,48 L296,292 Q296,300 288,300" fill="none" stroke="#2e5090" stroke-width="1.2"/>
+<text x="312" y="178" font-size="9.5" font-weight="600" letter-spacing="0.6" fill="#2e5090" text-anchor="middle" transform="rotate(-90 312 178)">AI SCIENTIFIC AGENT &#183; TEST-TIME COMPUTE</text>
+<circle cx="24" cy="367" r="3.2" fill="none" stroke="#8c1515" stroke-width="1.2"/>
+<path d="M18.5,377.5 A6.2,6.2 0 0 1 29.5,377.5" fill="none" stroke="#8c1515" stroke-width="1.2"/>
+<text x="40" y="375" font-size="9.5" fill="#6b7280">human scientist &#8212; sets direction, validates evidence</text>
+</svg>
